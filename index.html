@@ -6,7 +6,6 @@
     <title>Shelter</title>
     <link rel="stylesheet" type="text/css" href="style/style.css" />
     <link rel="stylesheet" type="text/css" href="style/main_page.css" />
-    <link rel="stylesheet" type="text/css" href="style/media.css" />
     <link
       rel="shortcut icon"
       href="./images/favicon32x32.ico"
@@ -22,11 +21,6 @@
           </h1>
           <a class="header__about-link" href="#">Shelter for pets in Boston</a>
         </div>
-        <button class="header__button-burger">
-          <span class="header__button-elem"></span>
-          <span class="header__button-elem"></span>
-          <span class="header__button-elem"></span>
-        </button>
         <nav class="header__nav">
           <a class="header__nav-point header__nav-active" href="#"
             >About the shelter</a
@@ -231,7 +225,7 @@
     <section class="donate">
       <div class="container donate__wrapper">
         <div class="donate-container">
-          <picture class="donation-dog-img">
+          <picture>
             <source
               srcset="./images/donation-dog-320.png"
               type="image/png"
@@ -301,13 +295,17 @@
               <span class="footer__sublink">18 South Park, London </span>
             </a>
           </div>
-          <picture class="footer-puppy">
+          <picture>
             <source
               srcset="./images/footer-puppy-320.png"
               type="image/png"
               media="(max-width: 767px)"
             />
-            <img src="./images/footer-puppy.png" alt="footer-dor" />
+            <img
+              class="footer-puppy"
+              src="./images/footer-puppy.png"
+              alt="footer-dor"
+            />
           </picture>
         </div>
       </div>

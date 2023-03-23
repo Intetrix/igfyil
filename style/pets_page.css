@@ -17,7 +17,7 @@ html {
   background-color: #f6f6f6;
 }
 
-.our-friends__wrapper2 {
+.our-friends__wrapper {
   padding: 80px 40px 100px;
 }
 
@@ -29,6 +29,7 @@ html {
   line-height: 130%;
   text-align: center;
   letter-spacing: 0.06em;
+  margin-bottom: 45px;
 }
 
 .header__pets {
@@ -73,23 +74,6 @@ html {
   letter-spacing: 0.1em;
 }
 
-.header__button-burger {
-  cursor: pointer;
-  display: none;
-  border: none;
-  background-color: inherit;
-  transition: transform 1s;
-  z-index: 5;
-}
-
-.header__button-elem2 {
-  display: block;
-  width: 30px;
-  height: 2px;
-  background-color: var(--color-black);
-  margin-bottom: 10px;
-}
-
 .header__nav-point {
   text-decoration: none;
   color: var(--color-dark-gray);
@@ -129,8 +113,11 @@ html {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 30px;
-  margin-top: 45px;
+  row-gap: 30px;
+  column-gap: 40px;
+  max-height: 900px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .pets-container__card2 {
@@ -139,7 +126,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 30px;
   transition: var(--animation);
 }
 
@@ -189,6 +175,7 @@ html {
   justify-content: space-between;
   max-width: 340px;
   margin: 0 auto;
+  margin-top: 45px;
 }
 
 .our-friends__nav-button-left,
