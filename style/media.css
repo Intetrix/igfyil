@@ -1,0 +1,299 @@
+/*header*/
+@media (max-width: 1279px) {
+  .header {
+    padding: 30px 30px 0;
+  }
+  .header__pets {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 30px 53px 0 10px;
+  }
+  .header__pets {
+    padding: 30px 50px 30px 10px;
+  }
+  .header__nav {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    overflow: auto;
+    opacity: 0;
+    transition: opacity 0.5s, transform 1s, visibility 1s;
+    transform: translateX(100%);
+    z-index: 2;
+    background-color: var(--color-light-black);
+  }
+  .header__nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 248px;
+  }
+  .header__nav-point {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  .header__button-burger {
+    display: block;
+  }
+}
+
+/*not-only*/
+
+@media (max-width: 1279px) {
+  .not-only {
+    padding: 60px 30px 0;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .not-only__content {
+    align-self: center;
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
+  .not-only__content-button {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .not-only {
+    padding: 55px 10px 0;
+  }
+  .not-only__content {
+    padding-bottom: 105px;
+  }
+  .not-only__content-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+  }
+  .not-only__content-text {
+    text-align: center;
+  }
+}
+
+/*about*/
+
+@media (max-width: 1279px) {
+  .about__wrapper {
+    flex-direction: column;
+    padding: 75px 30px 100px;
+  }
+  .about__text {
+    width: 430px;
+    padding-top: 0;
+  }
+  .about__title {
+    margin-top: 0;
+  }
+  .about__pets {
+    order: 1;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 55px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about__wrapper {
+    padding: 42px 10px;
+  }
+  .about__text {
+    max-width: 300px;
+  }
+  .about__parag1,
+  .about__parag2 {
+    text-align: justify;
+  }
+  .about__parag1 {
+    margin-bottom: 22px;
+  }
+  .about__title {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  .about__pets {
+    padding-top: 42px;
+    width: 100%;
+  }
+}
+
+/*our-friends*/
+
+@media (max-width: 1279px) {
+  .our-friends__wrapper {
+    padding: 80px 30px 100px 30px;
+  }
+  .pets-container {
+    max-width: 580px;
+    column-gap: 40px;
+  }
+  .our-friends__button-left {
+    margin-right: 12px;
+  }
+
+  .our-friends__button-right {
+    margin-left: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .our-friends__wrapper {
+    padding: 42px 10px;
+  }
+  .our-friends__title {
+    font-size: 25px;
+    display: block;
+  }
+  .swiper-container {
+    margin-top: 42px;
+    margin-bottom: 42px;
+    flex-wrap: wrap;
+  }
+  .pets-container {
+    max-width: 270px;
+  }
+  .our-friends__button-left {
+    order: 1;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .our-friends__button-right {
+    order: 1;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+}
+
+/*help-section*/
+
+@media (max-width: 1279px) {
+  .help__wrapper {
+    padding: 80px 69px 100px 69px;
+  }
+  .help-container {
+    column-gap: 60px;
+    row-gap: 55px;
+  }
+  .help-container__card {
+    width: 26%;
+  }
+  .help-container__card-name {
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .help__wrapper {
+    padding: 42px 15px 42px 15px;
+  }
+  .help__title {
+    font-size: 25px;
+  }
+  .help-container {
+    margin-top: 42px;
+    column-gap: 30px;
+    row-gap: 30px;
+    width: 290px;
+  }
+  .help-container__card {
+    row-gap: 20px;
+    width: 40%;
+  }
+  .help-container__card-name {
+    font-size: 15px;
+    line-height: 16.5px;
+    letter-spacing: 6%;
+  }
+}
+/*donate-section*/
+
+@media (max-width: 1279px) {
+  .donate__wrapper {
+    padding: 80px 132px 100px 131px;
+  }
+  .donate-container {
+    flex-direction: column;
+    width: 505px;
+    height: 603px;
+  }
+  .donate-container__about {
+    padding-left: 21px;
+    padding-bottom: 60px;
+    width: 380px;
+    height: 282px;
+  }
+  .donation-dog-img {
+    order: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .donate__wrapper {
+    padding: 42px 10px 42px 10px;
+  }
+  .donate-container {
+    width: 300px;
+    height: 458.2px;
+  }
+  .donate__title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .donate__subtitle {
+    font-size: 15px;
+    margin-left: 13px;
+  }
+  .donate-container__link {
+    max-width: 281px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    margin: 20px;
+  }
+  .donate__about {
+    width: 280px;
+    height: 90px;
+    margin-left: 20px;
+  }
+}
+
+/*footer*/
+
+@media (max-width: 1279px) {
+  .footer__wrapper {
+    padding: 30px 30px 0;
+  }
+  .footer__container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer-puppy {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__wrapper {
+    padding: 30px 10px 0;
+  }
+  .footer__contact-title {
+    text-align: center;
+    font-size: 25px;
+    line-height: 32.5px;
+    letter-spacing: 6%;
+  }
+}
